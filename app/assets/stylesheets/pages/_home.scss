@@ -1,0 +1,189 @@
+
+// Specific CSS for your home-page
+* {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  font-family: 'Roboto', serif;
+}
+
+body {background:#ecf0f1; font-family: 'Roboto', serif; margin:0; color:#888; height:100%; display:flex; flex-direction:column}
+.content{
+  flex: 1 0 auto;
+}
+
+.banner {
+  background-image: url("https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+    ");
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 4;
+  text-align:center;
+  color:#fff;
+  font-size:60px;
+  height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 5px #333
+}
+
+.banner p {
+  font-size: 85px;
+}
+
+.banner-learnmore{
+  margin-top: 20px;
+  padding:0 15px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-signup{
+  background: $main-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  line-height: 60px;
+  color: white;
+  margin-bottom: 50px;
+  & #form-actions{
+    color: black;
+  }
+}
+.header{
+  height:60px;
+  background:#00DAFC;
+  color:#fff;
+  width:100%;
+}
+.logo{
+  margin:0;
+  line-height:50px;
+  float:left;
+}
+.nav{
+  list-style:none;
+  float:left;
+}
+.nav li{display:inline-block;}
+.nav li a{
+  display:inline-block;
+  padding:3px 15px;
+  color:inherit;
+  text-decoration:none;
+}
+
+.card.h-100{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top{
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 1030px){
+  .banner-learnmore{
+    height: 600px;
+  }
+  .banner-signup{
+    height: 600px;
+  }
+}
+
+#typed-text{
+  margin-top: 20vh;
+  margin-right: 5vw;
+}
+
+#center-links a {
+  margin-right: 38%;
+}
+
+.flexy{
+  margin-right: 80px;
+}
+
+@media(max-width: 1030px){
+
+  html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    overflow-y: hidden;
+  }
+  .navbar{
+    display:none;
+  }
+
+  .coin{
+    margin-right: 43%;
+    margin-top: 12%;
+  }
+  .footer{
+    display: none !important;
+  }
+
+  .banner{
+    display: none;
+  }
+
+  #typed-text{
+    display: none;
+  }
+
+  .flexy{
+    display: none;
+  }
+
+  .container{
+    display: none !important;
+  }
+
+  .mobile-banner{
+  background-image: url("https://images.pexels.com/photos/755726/pexels-photo-755726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+    ");
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 4;
+  text-align:center;
+  color:#fff;
+  font-size:60px;
+  height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 5px #333;
+  p {
+    font-size: 18px;
+    font-family: Raleway;
+  }
+}
+
+.banner-signup{
+  display: none;
+}
+
+}
+
+@media(max-width: 600px){
+  .coin{
+    margin-right: 29%;
+    margin-top: 31%;
+  }
+}
