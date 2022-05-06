@@ -1,0 +1,61 @@
+<div class="coin">
+    <div class="front jump">
+        <div class="star"></div>
+        <span class="currency">฿</span>
+        <div class="shapes">
+            <div class="shape_l"></div>
+            <div class="shape_r"></div>
+            <span class="top">Coin</span>
+            <span class="bottom">Trail</span>
+        </div>
+    </div>
+    <div class="shadow"></div>
+</div>
+<div class="banner">
+    <!-- particles.js container -->
+
+    <div id="particles-js"></div>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <div id="typed-text">
+        <div id="typed-strings">
+            <p>Track your Crypto Portfolio</p>
+            <br>
+            <p>Across <em>any</em> exchange</p>
+            <br>
+        </div>
+        <span id="typed6"></span>
+    </div>
+    <div class="flexy">
+        <%= link_to "Learn More", root_path(anchor: "learn-more"),  class: "bttn"%>
+            <%= link_to "Sign up", root_path(anchor: "form-inputs"), class: "bttn" %>
+    </div>
+</div>
+
+<div class="container">
+    <div class="banner-learnmore">
+        <div id="learn-more">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <%= image_tag "team-work.svg", class: "card-img-top", height: 250, width: 250%>
+                            <div class="card-body">
+                                <h4 class="card-title">About Us</h4>
+                                <p class="card-text">We're a group of crypto enthusiasts/developers who; just like you, had a very hard time managing our portfolios, alas! Cointrail is here to relinquish all your woes!</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <%= image_tag "presentation.svg", class: "card-img-top", height: 250, width: 250%>
+                            <div class="card-body">
+                                <h4 class="card-title">What we do</h4>
+                                <p class="card-text">We aim to revolutionize the crypto industry by copying someone elses idea and adding super dank JS animations to our landing page...ICO for "trailcoin" will be live Q1 2019, don't miss out!</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <%= image_tag "security.svg", class: "card-img-top", height: 250, width: 250%>
+                            <div class="card-body">
+                                <h4 class="card-title">Security</h4>
+                                <p class="card-text">Security will always be a top priority in every decision we make, and we incorporate multiple layers of protection, using the most reliab
